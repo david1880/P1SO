@@ -6,7 +6,7 @@ then
 elif test $# -eq 1
 then 
 	git add *
-	git commit -m \'$1\'
+	git commit -m \' $1 \'
 	git push origin master
 
 fi
