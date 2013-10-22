@@ -1,0 +1,29 @@
+#!/bin/bash
+
+if test $# -ne 1
+then
+	echo necesitas un comentario para el commit
+elif test $# -eq 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git add fich
+...
+
+git commit 'comentario'
+
+git push origin master
