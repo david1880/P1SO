@@ -7,7 +7,7 @@
 int head(int N){
 	
 	char linea[1024];
-	
+	// probando
 	
 	if(N>0){
 		fgets(linea,1024,stdin);
