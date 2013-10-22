@@ -4,26 +4,11 @@ if test $# -ne 1
 then
 	echo necesitas un comentario para el commit
 elif test $# -eq 1
+then 
+echo \'$1\'
+#	git add *
+#	git commit -m \'$1\'
+#	git push origin master
 
+fi
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-git add fich
-...
-
-git commit 'comentario'
-
-git push origin master
