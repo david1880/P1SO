@@ -7,7 +7,7 @@
 int main(int argc, char *argv[]){
 	
 	head(2);
-	
+	printf("ultima prueba");
 	
 	return 0;
 	
