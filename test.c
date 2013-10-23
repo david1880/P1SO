@@ -5,17 +5,19 @@
 
 
 int main(int argc, char *argv[]){
-	
-
+	/*
+	char a=*(argv[1]+1);
+	printf("%d\n", argc);
+	printf("%s\n", argv[1]);
+	printf("%c\n", a);
+*/
 	if (argc==1)
 	{
 		printf("Uso\n");
 	}else if (argc==3)
 	{
-		switch (argv[1]+1){
-			case 'h':{
-				head(atoi(argv[2]));
-			}
+		if (*(argv[1]+1)=='h'){
+			head(atoi(argv[2]));
 		}
 	}
 
@@ -24,8 +26,7 @@ int main(int argc, char *argv[]){
 
 
 
-	head(2);
-	printf("ultima prueba");
+	
 	
 	return 0;
 	
