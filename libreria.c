@@ -6,13 +6,13 @@
 
 int head(int N){
 	
-	char linea[1024];
-	// probando
 	
 	if(N>0){
-		fgets(linea,1024,stdin);
+		for (int i = 0; i < N; i++)
+		{
+			fgets(linea,1024,stdin);
 		printf("%s",linea);
-	
+		}
 		return 0;
 	}else{
 		return 1;
